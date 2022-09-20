@@ -1,2 +1,2 @@
-# Bloom
-Virtual Gardening Simulator
+# Capstone
+Project made for the UPRM INSO capstone course
