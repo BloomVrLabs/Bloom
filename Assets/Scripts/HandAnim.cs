@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
+using Unity.XR.Oculus;
 using TMPro; // Add the TextMesh Pro namespace to access the various functions.
 using System.Linq;
 
@@ -61,32 +62,42 @@ public class HandAnim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      if (controller.inputDevice.TryGetFeatureValue(CommonUsages.grip, out float gripTarget)){
-        // solutionText.SetText(gripValue.ToString());
-        float grip_state_delta = gripTarget - grip_state;
-        if (grip_state_delta > 0f){  grip_state = Mathf.Clamp(grip_state + 1/anim_frames, 0f, gripTarget);
-        }else if (grip_state_delta < 0f){grip_state = Mathf.Clamp(grip_state - 1/anim_frames, gripTarget, 1f);
-        }else{  grip_state = gripTarget;}
-
-        m_animator.SetFloat(m_animParamIndexFlex, grip_state);
-      }
-      if (controller.inputDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerTarget)){
-
-        float trigger_state_delta = triggerTarget - trigger_state;
-        if (trigger_state_delta > 0f){  trigger_state = Mathf.Clamp(trigger_state + 1/anim_frames, 0f, triggerTarget);
-        }else if (trigger_state_delta < 0f){trigger_state = Mathf.Clamp(trigger_state - 1/anim_frames, triggerTarget, 1f);
-        }else{  trigger_state = triggerTarget;}
-
-        m_animator.SetFloat("Pinch", trigger_state);
-      }
-      if (controller.inputDevice.TryGetFeatureValue(CommonUsages.indexTouch, out float triggerCapTarget)){
+      // if (controller.inputDevice.TryGetFeatureValue(OculusUsages.grip, out float gripTarget)){
+      //   // solutionText.SetText(gripValue.ToString());
+      //   float grip_state_delta = gripTarget - grip_state;
+      //   if (grip_state_delta > 0f){  grip_state = Mathf.Clamp(grip_state + 1/anim_frames, 0f, gripTarget);
+      //   }else if (grip_state_delta < 0f){grip_state = Mathf.Clamp(grip_state - 1/anim_frames, gripTarget, 1f);
+      //   }else{  grip_state = gripTarget;}
+      //
+      //   m_animator.SetFloat(m_animParamIndexFlex, grip_state);
+      // }
+      // if (controller.inputDevice.TryGetFeatureValue(OculusUsages.trigger, out float triggerTarget)){
+      //
+      //   float trigger_state_delta = triggerTarget - trigger_state;
+      //   if (trigger_state_delta > 0f){  trigger_state = Mathf.Clamp(trigger_state + 1/anim_frames, 0f, triggerTarget);
+      //   }else if (trigger_state_delta < 0f){trigger_state = Mathf.Clamp(trigger_state - 1/anim_frames, triggerTarget, 1f);
+      //   }else{  trigger_state = triggerTarget;}
+      //
+      //   m_animator.SetFloat("Pinch", trigger_state);
+      // }
+      if (controller.inputDevice.TryGetFeatureValue(OculusUsages.indexTouch, out bool val))
+      {
+        float triggerCapTarget = 0;
+        
+        if (val == true) { triggerCapTarget = 1; }
+        
         float triggerCap_state_delta = triggerCapTarget - triggerCap_state;
         if (triggerCap_state_delta > 0f){  triggerCap_state = Mathf.Clamp(triggerCap_state + 1/anim_frames, 0f, triggerCapTarget);
         }else if (triggerCap_state_delta < 0f){triggerCap_state = Mathf.Clamp(triggerCap_state - 1/anim_frames, triggerCapTarget, 1f);
         }else{  triggerCap_state = triggerCapTarget;}
         m_animator.SetLayerWeight(m_animLayerIndexPoint, 1f-triggerCap_state);
       }
-      if (controller.inputDevice.TryGetFeatureValue(CommonUsages.thumbTouch, out float thumbCapTarget)){
+      if (controller.inputDevice.TryGetFeatureValue(OculusUsages.thumbTouch, out bool Val))
+      {
+        float thumbCapTarget = 0;
+        
+        if (Val == true) { thumbCapTarget = 1; }
+
         float thumbCap_state_delta = thumbCapTarget - thumbCap_state;
         if (thumbCap_state_delta > 0f){  thumbCap_state = Mathf.Clamp(thumbCap_state + 1/anim_frames, 0f, thumbCapTarget);
         }else if (thumbCap_state_delta < 0f){thumbCap_state = Mathf.Clamp(thumbCap_state - 1/anim_frames, thumbCapTarget, 1f);
