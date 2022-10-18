@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e2677435e644074aefd9b95e2e2054, type: 3}
+  m_Name: MonsterraDeliciosa
+  m_EditorClassIdentifier: 
+  plantName: Monsterra Deliciosa
+  stages:
+  - {fileID: 11400000, guid: 87fe8447951a64f969c8bad205763bb4, type: 2}
+  - {fileID: 11400000, guid: bea29e709162f40b2aab7ed54f9bf152, type: 2}
+  - {fileID: 11400000, guid: c9889ae161e994600bd7d5acdaca53dd, type: 2}

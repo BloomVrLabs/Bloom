@@ -7,4 +7,9 @@ public class PlantScriptableObject : ScriptableObject
     public string plantName;
     [SerializeField]
     public List<StageScriptableObject> stages;
+    
+    public StageScriptableObject getStage(int stageIndex)
+    {
+        return stages[stageIndex];
+    }
 }
