@@ -9668,10 +9668,8 @@ MonoBehaviour:
   health: 0
   water: 0
   sunlight: 0
-  plantData: {fileID: 11400000, guid: 007b1cf92846746bca7c54b1603fe721, type: 2}
-  plantRender: {fileID: 1553674601}
+  plantData: {fileID: 11400000, guid: 506a9c44e43e842f8b66ae046df786dc, type: 2}
   plantModel: {fileID: 0}
-  plantCollider: {fileID: 1553674602}
   _plantUI: {fileID: 1134004156}
 --- !u!23 &1553674599
 MeshRenderer:

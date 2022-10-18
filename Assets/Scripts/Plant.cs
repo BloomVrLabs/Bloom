@@ -11,11 +11,9 @@ public class Plant : MonoBehaviour
     public float sunlight;
 
     [SerializeField] private PlantScriptableObject plantData;
-
-    [SerializeField] private MeshFilter plantRender;
-    [SerializeField] private GameObject plantModel;
-    [SerializeField] private MeshCollider plantCollider;
     private StageScriptableObject _currentStage;
+    
+    [SerializeField] private GameObject plantModel;
 
     [SerializeField] private PlantStatsUI _plantUI;
 

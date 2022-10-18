@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad8591c3d5742486fa1779041017fe59, type: 3}
-  m_Name: SeedMonsterra
+  m_Name: Seedling
   m_EditorClassIdentifier: 
-  stageName: Seed
-  healthThreshold: 0
-  neededWater: 0
-  neededSunlight: 0
-  model: {fileID: 5892359386350019813, guid: 56443c43b74715f4d97286c46d4c7fd6, type: 3}
+  stageName: Seedling
+  healthThreshold: 0.61
+  neededWater: 0.91
+  neededSunlight: 0.52
+  model: {fileID: 0}

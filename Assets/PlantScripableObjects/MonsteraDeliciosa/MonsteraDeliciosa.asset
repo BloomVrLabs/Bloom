@@ -9,11 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad8591c3d5742486fa1779041017fe59, type: 3}
-  m_Name: SeedlingMonsterra
+  m_Script: {fileID: 11500000, guid: 99e2677435e644074aefd9b95e2e2054, type: 3}
+  m_Name: MonsteraDeliciosa
   m_EditorClassIdentifier: 
-  stageName: Seedling
-  healthThreshold: 0
-  neededWater: 0
-  neededSunlight: 0
-  model: {fileID: 919132149155446097, guid: ed85eec956c3a417f8211e10f6396c02, type: 3}
+  plantName: Monstera Deliciosa
+  stages:
+  - {fileID: 11400000, guid: 5545d6c8508c84209a8b43dd3a88c61b, type: 2}
+  - {fileID: 11400000, guid: 28e1e07ac0f134b7dae5158d8f89356c, type: 2}
