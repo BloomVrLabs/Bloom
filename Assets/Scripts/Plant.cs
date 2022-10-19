@@ -17,6 +17,8 @@ public class Plant : MonoBehaviour
 
     [SerializeField] private PlantStatsUI _plantUI;
 
+    private GameObject plant;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +26,9 @@ public class Plant : MonoBehaviour
         plantModel = _currentStage.getModelObject();
         
         //instantiate model
-        Instantiate(plantModel, transform.position, transform.rotation);
+        var parent = transform;
+        plant = Instantiate(plantModel, parent.position, parent.rotation, parent);
+        plant.transform.parent = this.transform;
 
         _plantUI.healthBar.SetValue(health);
         _plantUI.waterBar.SetValue(water);
