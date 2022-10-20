@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class Plant : MonoBehaviour
@@ -14,10 +13,11 @@ public class Plant : MonoBehaviour
     private StageScriptableObject _currentStage;
     
     [SerializeField] private GameObject plantModel;
+    [SerializeField] private new Collider collider; 
 
-    [SerializeField] private PlantStatsUI _plantUI;
+    [SerializeField] private PlantStatsUI plantUI;
 
-    private GameObject plant;
+    private GameObject _plant;
 
     // Start is called before the first frame update
     void Start()
@@ -27,47 +27,53 @@ public class Plant : MonoBehaviour
         
         //instantiate model
         var parent = transform;
-        plant = Instantiate(plantModel, parent.position, parent.rotation, parent);
-        plant.transform.parent = this.transform;
+        _plant = Instantiate(plantModel, parent.position, parent.rotation, parent);
+        _plant.transform.parent = this.transform;
 
-        _plantUI.healthBar.SetValue(health);
-        _plantUI.waterBar.SetValue(water);
-        _plantUI.sunBar.SetValue(sunlight);
+        plantUI.healthBar.SetValue(health);
+        plantUI.waterBar.SetValue(water);
+        plantUI.sunBar.SetValue(sunlight);
     }
 
     private void Update()
     {
-        _plantUI.healthBar.SetValue(health);
-        _plantUI.waterBar.SetValue(water);
-        _plantUI.sunBar.SetValue(sunlight);
+        //Decrease stats each frame
+        RemoveSunlight();
+        RemoveWater();
+
+        //Make Sure the stats dont go over max!
+        if (water > 1f) { water = 1f; }
+        if (sunlight > 1f) { sunlight = 1f; }
+        
+        //Update UI & Calculate Plant Health
+        plantUI.healthBar.SetValue(CalculateHealth());
+        plantUI.waterBar.SetValue(water);
+        plantUI.sunBar.SetValue(sunlight);
     }
 
-    public void AddHealth()
+    private float CalculateHealth()
     {
-        health += 0.1f;
-    }
-    public void RemoveHealth()
-    {
-        health -= 0.1f;
+        health = (water + sunlight) / 2;
+        return health;
     }
     public void AddWater()
     {
-        water += 0.1f;
+        water += 0.005f;
     }
-    public void RemoveWater()
+    private void RemoveWater()
     {
-        water -= 0.1f;
+        water -= 0.00025f;
     }
     public void AddSunlight()
     {
-        sunlight += 0.1f;
+        sunlight += 0.005f;
     }
-    public void RemoveSunlight()
+    private void RemoveSunlight()
     {
-        sunlight -= 0.1f;
+        sunlight -= 0.00025f;
     }
     
-    public void NextStage()
+    private void NextStage()
     {
         _currentStage = plantData.stages[plantData.stages.IndexOf(_currentStage) + 1];
     }
