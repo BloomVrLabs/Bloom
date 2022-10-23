@@ -27,11 +27,16 @@ public class Plant : MonoBehaviour
     void Start()
     {
         // when the plant is initialized make sure it's a seed.
-        currentGrowthStage = GrowthStages.Seed;   
+        
     }
 
     // Update is called once per frame
     void Update()
+    {
+        
+    }
+
+    private void OnWaterPlantTrigger()
     {
         
     }
