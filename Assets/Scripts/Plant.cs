@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Plant : MonoBehaviour
@@ -76,5 +78,10 @@ public class Plant : MonoBehaviour
     private void NextStage()
     {
         _currentStage = plantData.stages[plantData.stages.IndexOf(_currentStage) + 1];
+    }
+
+    private void OnWaterPlantTrigger()
+    {
+        
     }
 }
