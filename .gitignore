@@ -58,3 +58,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Third party assets we cant include on github
+./Assets/AutoHand
+
