@@ -1,0 +1,84 @@
+fileFormatVersion: 2
+guid: cf9ea66ad286616448580e113e8b0545
+SpeedTreeImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaf_LOD0
+    second: {fileID: 2100000, guid: 6e245f66497dc7b4889e134e6da1ba5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaf_LOD1
+    second: {fileID: 2100000, guid: ddb7a42ee52f5f34995e80be311b727a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaf_LOD2
+    second: {fileID: 2100000, guid: 4fc8975e31adcee49be8ca7a7ea6cf84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stem_LOD0
+    second: {fileID: 2100000, guid: 9882aede1a039044ab683c87ce225054, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stem_LOD1
+    second: {fileID: 2100000, guid: 1a8b0333929e36949bc9f4f5e9ce034b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stem_LOD2
+    second: {fileID: 2100000, guid: 10fe0c3244589e346853da7a9a3e8f29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: new_curled_leaf_LOD0
+    second: {fileID: 2100000, guid: 39ac6fad7c76aa5409ce2c686f75d93d, type: 2}
+  serializedVersion: 6
+  mainColor: {r: 1, g: 1, b: 1, a: 1}
+  hueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+  alphaTestRef: 0.33
+  bestWindQuality: 4
+  hasBillboard: 0
+  lODSettings:
+  - height: 0.5
+    castShadows: 1
+    receiveShadows: 1
+    useLightProbes: 1
+    reflectionProbeUsage: 1
+    enableBump: 1
+    enableHue: 1
+    enableSubsurface: 1
+    windQuality: 4
+  - height: 0.25
+    castShadows: 1
+    receiveShadows: 1
+    useLightProbes: 1
+    reflectionProbeUsage: 1
+    enableBump: 1
+    enableHue: 1
+    enableSubsurface: 1
+    windQuality: 4
+  - height: 0.01
+    castShadows: 1
+    receiveShadows: 1
+    useLightProbes: 1
+    reflectionProbeUsage: 1
+    enableBump: 1
+    enableHue: 1
+    enableSubsurface: 1
+    windQuality: 4
+  enableSmoothLODTransition: 1
+  animateCrossFading: 1
+  billboardTransitionCrossFadeWidth: 0.25
+  fadeOutWidth: 0.25
+  scaleFactor: 0.3048
+  materialVersion: 3
+  materialLocation: 1
+  fileIDType: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

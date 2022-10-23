@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731715, g: 0.13414735, b: 0.121078536, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1202,6 +1202,83 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 497032, guid: b38a3290156af5046a449900e3163984, type: 3}
   m_PrefabInstance: {fileID: 500272602}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &535565834
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 619869424}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.019999996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.019999985
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.019999985
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00006
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00234
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_Name
+      value: mature-monstera-s6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.13075505
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.05678476
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7d03f8572d4a8c6418d86f397e5657b0, type: 3}
 --- !u!1 &574386399
 GameObject:
   m_ObjectHideFlags: 0
