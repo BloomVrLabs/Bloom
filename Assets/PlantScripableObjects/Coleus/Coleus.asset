@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e2677435e644074aefd9b95e2e2054, type: 3}
+  m_Name: Coleus
+  m_EditorClassIdentifier: 
+  plantName: Coleus
+  stages:
+  - {fileID: 11400000, guid: a3b50d0ba5c2d7e498f0c258e6d194a9, type: 2}
+  - {fileID: 11400000, guid: 4e52544046bfb024c86002302fcad04d, type: 2}
+  - {fileID: 11400000, guid: 375cfa883d9a80641a80135a1c383d9f, type: 2}
+  - {fileID: 11400000, guid: 97ba4948880126d4790b7df0dca560cb, type: 2}
+  - {fileID: 11400000, guid: a577beed66345c94ea17588adfffb585, type: 2}
