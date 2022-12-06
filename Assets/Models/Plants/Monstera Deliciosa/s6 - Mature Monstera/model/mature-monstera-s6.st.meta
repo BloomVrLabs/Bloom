@@ -1,0 +1,109 @@
+fileFormatVersion: 2
+guid: 69ff1099669634f4e883b914b889eb0b
+SpeedTreeImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Juvenile_leaf_LOD0
+    second: {fileID: 2100000, guid: ac2c7d5474eddf04e912e407d04ed6c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Juvenile_leaf_LOD1
+    second: {fileID: 2100000, guid: f8f3a3a44e7520c4c94ab77870e2dfc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Juvenile_leaf_LOD2
+    second: {fileID: 2100000, guid: aad5af73b8d9f30458c6ecd44436db1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaf_LOD0
+    second: {fileID: 2100000, guid: 3836d547b36214d49921721a95fe957e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaf_LOD1
+    second: {fileID: 2100000, guid: f90cbb88530039141b13775861312744, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stem_Baby_LOD0
+    second: {fileID: 2100000, guid: 2692636b82e605a429755e1a5273f20f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stem_Baby_LOD1
+    second: {fileID: 2100000, guid: 6821d507833e5024fb93129b030a6937, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stem_Baby_LOD2
+    second: {fileID: 2100000, guid: 2a38e45b7eb6fda45b982d9b8496b4b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stem_Juvenile_LOD0
+    second: {fileID: 2100000, guid: 5b2fcc2dcaed78042a784af34500c063, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stem_Juvenile_LOD1
+    second: {fileID: 2100000, guid: 5350bf51445eb4946914384bfdd13141, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stem_Mature_LOD0
+    second: {fileID: 2100000, guid: 4212fd840f25eb74089591d37205837b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mature_leaf_LOD0
+    second: {fileID: 2100000, guid: 4da486b6848da7c4fb2c1e5b2b42ecf0, type: 2}
+  serializedVersion: 6
+  mainColor: {r: 1, g: 1, b: 1, a: 1}
+  hueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+  alphaTestRef: 0.33
+  bestWindQuality: 4
+  hasBillboard: 0
+  lODSettings:
+  - height: 0.5
+    castShadows: 1
+    receiveShadows: 1
+    useLightProbes: 1
+    reflectionProbeUsage: 1
+    enableBump: 1
+    enableHue: 1
+    enableSubsurface: 1
+    windQuality: 4
+  - height: 0.25
+    castShadows: 1
+    receiveShadows: 1
+    useLightProbes: 1
+    reflectionProbeUsage: 1
+    enableBump: 1
+    enableHue: 1
+    enableSubsurface: 1
+    windQuality: 4
+  - height: 0.01
+    castShadows: 1
+    receiveShadows: 1
+    useLightProbes: 1
+    reflectionProbeUsage: 1
+    enableBump: 1
+    enableHue: 1
+    enableSubsurface: 1
+    windQuality: 4
+  enableSmoothLODTransition: 1
+  animateCrossFading: 1
+  billboardTransitionCrossFadeWidth: 0.25
+  fadeOutWidth: 0.25
+  scaleFactor: 0.3048
+  materialVersion: 3
+  materialLocation: 1
+  fileIDType: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

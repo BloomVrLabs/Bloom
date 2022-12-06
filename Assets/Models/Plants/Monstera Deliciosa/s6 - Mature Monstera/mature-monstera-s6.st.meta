@@ -6,7 +6,7 @@ SpeedTreeImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Juvenile_leaf_LOD0
-    second: {fileID: 2100000, guid: 6bd6d277bbd7dc94c93144ddaa8a99dd, type: 2}
+    second: {fileID: 2100000, guid: 08a63bb6c08bc724381a8819a85fd6b1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
