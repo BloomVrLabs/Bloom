@@ -1,0 +1,44 @@
+# Blender MTL File: 'old_tap_blender.blend'
+# Material Count: 3
+
+newmtl bucket
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump old_tap_textures\\bucket_Normal.jpg
+map_Kd old_tap_textures\\bucket_BaseColor.jpg
+map_Ns old_tap_textures\\bucket_Roughness.jpg
+refl old_tap_textures\\bucket_Metallic.jpg
+
+newmtl pipe_and_top
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump old_tap_textures\\pipe_Normal.jpg
+map_Kd old_tap_textures\\pipe_BaseColor.jpg
+map_Ns old_tap_textures\\pipe_Roughness.jpg
+refl old_tap_textures\\pipe_Metallic.jpg
+
+newmtl tap
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump old_tap_textures\\tap_Normal.jpg
+map_Kd old_tap_textures\\tap_BaseColor.jpg
+map_Ns old_tap_textures\\tap_Roughness.jpg
+refl old_tap_textures\\tap_Metallic.jpg
