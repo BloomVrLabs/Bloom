@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: e2fef059a78927b43bf04ab384bab4d7
+timeCreated: 1496419408
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Gutter01
+    100002: Gutter02
+    100004: Gutter03
+    100006: Gutter04
+    100008: Gutter05
+    100010: Gutter06
+    100012: GutterHandles01
+    100014: GutterHandles02
+    100016: GutterHandles03
+    100018: GutterHandles04
+    100020: GutterHandles05
+    100022: GutterHandles06
+    100024: //RootNode
+    400000: Gutter01
+    400002: Gutter02
+    400004: Gutter03
+    400006: Gutter04
+    400008: Gutter05
+    400010: Gutter06
+    400012: GutterHandles01
+    400014: GutterHandles02
+    400016: GutterHandles03
+    400018: GutterHandles04
+    400020: GutterHandles05
+    400022: GutterHandles06
+    400024: //RootNode
+    2300000: Gutter01
+    2300002: Gutter02
+    2300004: Gutter03
+    2300006: Gutter04
+    2300008: Gutter05
+    2300010: Gutter06
+    2300012: GutterHandles01
+    2300014: GutterHandles02
+    2300016: GutterHandles03
+    2300018: GutterHandles04
+    2300020: GutterHandles05
+    2300022: GutterHandles06
+    2300024: //RootNode
+    3300000: Gutter01
+    3300002: Gutter02
+    3300004: Gutter03
+    3300006: Gutter04
+    3300008: Gutter05
+    3300010: Gutter06
+    3300012: GutterHandles01
+    3300014: GutterHandles02
+    3300016: GutterHandles03
+    3300018: GutterHandles04
+    3300020: GutterHandles05
+    3300022: GutterHandles06
+    3300024: //RootNode
+    4300000: Gutters
+    4300002: Gutter01
+    4300004: GutterHandles01
+    4300006: Gutter02
+    4300008: GutterHandles02
+    4300010: Gutter03
+    4300012: GutterHandles03
+    4300014: Gutter04
+    4300016: GutterHandles04
+    4300018: Gutter05
+    4300020: GutterHandles05
+    4300022: Gutter06
+    4300024: GutterHandles06
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
