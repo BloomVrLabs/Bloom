@@ -1,6 +1,10 @@
 fileFormatVersion: 2
-guid: fde01ce882f35b147abe4b3404c8e1d9
+<<<<<<<< HEAD:Assets/Conifers [BOTD]/CTI_URP_10.3.2_runtime.unitypackage.meta
+guid: ed6a5dbf1e0ad894dbb9396aab0e9022
+========
+guid: bd91b4e7545a56b4e9a593e06f44ff8d
 folderAsset: yes
+>>>>>>>> 3dd87c1f56883c796a40c7c4800db86c199eebe2:Assets/_TerrainAutoUpgrade.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
