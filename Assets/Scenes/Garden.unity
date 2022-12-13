@@ -589,6 +589,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: san-pedro-cactus-s3
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 9830b53ab4b9ba64ba7423ace147dd0c, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9830b53ab4b9ba64ba7423ace147dd0c, type: 3}
 --- !u!1001 &102365503
@@ -2061,6 +2065,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: snake-plant-s3
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 8fff4974267a85c438fd1b66da57b9f6, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 8fff4974267a85c438fd1b66da57b9f6, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fff4974267a85c438fd1b66da57b9f6, type: 3}
 --- !u!1001 &323301569
@@ -2281,6 +2293,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 087ef4830cc17bd4a803af1748f3bd76, type: 3}
       propertyPath: m_Name
       value: tomato-plant-s1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 087ef4830cc17bd4a803af1748f3bd76, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 087ef4830cc17bd4a803af1748f3bd76, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 087ef4830cc17bd4a803af1748f3bd76, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 087ef4830cc17bd4a803af1748f3bd76, type: 3}
@@ -2584,6 +2608,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb781c01c63e92f4d87cafc30aa20d1b, type: 3}
       propertyPath: m_Name
       value: coleus_s4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: bb781c01c63e92f4d87cafc30aa20d1b, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: bb781c01c63e92f4d87cafc30aa20d1b, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: bb781c01c63e92f4d87cafc30aa20d1b, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb781c01c63e92f4d87cafc30aa20d1b, type: 3}
@@ -3640,6 +3676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: snake-plant-s1
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 1d39a2661d0b4ba448264ada5d05a465, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d39a2661d0b4ba448264ada5d05a465, type: 3}
 --- !u!1 &538210866
@@ -4190,6 +4230,52 @@ Transform:
   - {fileID: 1161568612}
   m_Father: {fileID: 1920759414}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &644041310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 644041312}
+  - component: {fileID: 644041311}
+  m_Layer: 0
+  m_Name: WindZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!182 &644041311
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644041310}
+  m_Enabled: 1
+  m_Mode: 0
+  m_Radius: 20
+  m_WindMain: 0.75
+  m_WindTurbulence: 0.05
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
+--- !u!4 &644041312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644041310}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 176.13, y: 153.47, z: 226.412}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &656335175
 GameObject:
@@ -11230,6 +11316,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: coleus_s2
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 861e3e96a861bf148b02f98d40f52347, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 861e3e96a861bf148b02f98d40f52347, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 861e3e96a861bf148b02f98d40f52347, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 861e3e96a861bf148b02f98d40f52347, type: 3}
 --- !u!1001 &999155649
@@ -11593,6 +11691,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65626c35f123a2843abd73efc7a036c5, type: 3}
       propertyPath: m_Name
       value: san-pedro-cactus-s1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 65626c35f123a2843abd73efc7a036c5, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65626c35f123a2843abd73efc7a036c5, type: 3}
@@ -12153,6 +12255,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: coleus_s3
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 21156770e8846ee4ea9dd915145b3519, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 21156770e8846ee4ea9dd915145b3519, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 21156770e8846ee4ea9dd915145b3519, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21156770e8846ee4ea9dd915145b3519, type: 3}
 --- !u!1001 &1137409133
@@ -12373,6 +12487,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 582f8aeb97ab16e4e9b7d87058527a5f, type: 3}
       propertyPath: m_Name
       value: san-pedro-cactus-s2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 582f8aeb97ab16e4e9b7d87058527a5f, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 582f8aeb97ab16e4e9b7d87058527a5f, type: 3}
@@ -14246,6 +14364,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: coleus_s5
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: e47b94206e0f4ff498e2c98d44544520, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: e47b94206e0f4ff498e2c98d44544520, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: e47b94206e0f4ff498e2c98d44544520, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e47b94206e0f4ff498e2c98d44544520, type: 3}
 --- !u!1 &1494508555
@@ -14542,6 +14672,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9b879167c26b4b440a79b2e1a4cd6c29, type: 3}
       propertyPath: m_Name
       value: coleus
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 9b879167c26b4b440a79b2e1a4cd6c29, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 9b879167c26b4b440a79b2e1a4cd6c29, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 9b879167c26b4b440a79b2e1a4cd6c29, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b879167c26b4b440a79b2e1a4cd6c29, type: 3}
@@ -18110,6 +18252,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: snake-plant-s2
       objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 7fa55ada4a6582541a39ca8d527638b5, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 7fa55ada4a6582541a39ca8d527638b5, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fa55ada4a6582541a39ca8d527638b5, type: 3}
 --- !u!1001 &2119081521
@@ -18435,7 +18585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cf98a7e0e50b68479ed28020c62584e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collider: {fileID: 0}
+  collider: {fileID: 1431431518}
 --- !u!4 &1545159194915936327
 Transform:
   m_ObjectHideFlags: 0
@@ -18681,6 +18831,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: WaternigCan
       objectReference: {fileID: 0}
+    - target: {fileID: 3420168214551663700, guid: 625ddf95298cff748bca8fb9c3fd89c7, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420168214551663700, guid: 625ddf95298cff748bca8fb9c3fd89c7, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      value: 
+      objectReference: {fileID: 1723670332}
+    - target: {fileID: 3420168214551663700, guid: 625ddf95298cff748bca8fb9c3fd89c7, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[1]
+      value: 
+      objectReference: {fileID: 1413134503}
     - target: {fileID: 6792087428711794476, guid: 625ddf95298cff748bca8fb9c3fd89c7, type: 3}
       propertyPath: m_RootOrder
       value: 17
