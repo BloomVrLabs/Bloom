@@ -14,6 +14,7 @@ public class TimeManager : MonoBehaviour
 
     public static int Hour { get; private set; }
 
+    [SerializeField]
     private float minuteToRealTime = 0.01f;
 
     private float timer;
@@ -42,6 +43,8 @@ public class TimeManager : MonoBehaviour
             default:
                 return DayStage.Morning;
         }
+
+        
     }
 
     public DayStage currentGrowthStage;
@@ -72,6 +75,7 @@ public class TimeManager : MonoBehaviour
                 if(Hour % 5 == 0)
                 {
                     currentGrowthStage = DayStageNext(currentGrowthStage);
+                    Debug.Log("Day advanced!");
                     OnDayStageChanged?.Invoke();
                 }
                 Minute = 0;
