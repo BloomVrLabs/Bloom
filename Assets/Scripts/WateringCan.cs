@@ -28,9 +28,9 @@ public class WateringCan : MonoBehaviour
 
     public void decreaseWater()
     {
-        if (water < 0)
+        if (water < 0f)
         {
-            water = 0;
+            water = 0f;
         }
         else
         {
@@ -40,9 +40,9 @@ public class WateringCan : MonoBehaviour
     
     public void increaseWater()
     {
-        if (water > 1)
+        if (water > 1f)
         {
-            water = 1;
+            water = 1f;
         }
         else
         {
