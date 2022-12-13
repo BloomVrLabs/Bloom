@@ -61,3 +61,4 @@ crashlytics-build.properties
 # Third party assets we cant include on github
 [Aa]ssets/AutoHand/
 
+UserSettings/Layouts/default-2021.dwlt
