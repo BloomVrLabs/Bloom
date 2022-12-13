@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad8591c3d5742486fa1779041017fe59, type: 3}
-  m_Name: Seedling
+  m_Name: s3
   m_EditorClassIdentifier: 
-  stageName: Seedling
-  healthThreshold: 0.61
-  neededWater: 0.91
-  neededSunlight: 0.52
-  model: {fileID: 0}
+  stageName: open
+  healthThreshold: 0.91
+  neededWater: 0.67
+  neededSunlight: 0.34
+  model: {fileID: 919132149155446097, guid: a973a1dd1beb35d46a4e9169fa7e6c58, type: 3}

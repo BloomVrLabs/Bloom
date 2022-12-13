@@ -15,6 +15,7 @@ public class Plant : MonoBehaviour
     private StageScriptableObject _currentStage;
     
     [SerializeField] private GameObject plantModel;
+    [SerializeField] private Transform plantSpawn;
     [SerializeField] private new Collider collider; 
 
     [SerializeField] private PlantStatsUI plantUI;
@@ -29,7 +30,7 @@ public class Plant : MonoBehaviour
         
         //instantiate model
         var parent = transform;
-        _plant = Instantiate(plantModel, parent.position, parent.rotation, parent);
+        _plant = Instantiate(plantModel, plantSpawn.position, parent.rotation, parent);
         _plant.transform.parent = this.transform;
 
         plantUI.healthBar.SetValue(health);
@@ -47,10 +48,21 @@ public class Plant : MonoBehaviour
         if (water > 1f) { water = 1f; }
         if (sunlight > 1f) { sunlight = 1f; }
         
+        // make sure they dont go under 0
+        if (water < 0f) { water = 0f; }
+        if (sunlight < 0f) { sunlight = 0f; }
+
         //Update UI & Calculate Plant Health
         plantUI.healthBar.SetValue(CalculateHealth());
         plantUI.waterBar.SetValue(water);
         plantUI.sunBar.SetValue(sunlight);
+        
+        //change stage
+        if (health > 0.75f)
+        {
+            NextStage();
+        }
+        
     }
 
     private float CalculateHealth()
@@ -77,7 +89,15 @@ public class Plant : MonoBehaviour
     
     private void NextStage()
     {
+        water = 0.25f;
+        sunlight = 0.25f;
+        
         _currentStage = plantData.stages[plantData.stages.IndexOf(_currentStage) + 1];
+
+        //change model
+        plantModel = _currentStage.getModelObject();
+
+
     }
 
     private void OnWaterPlantTrigger()

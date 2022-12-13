@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad8591c3d5742486fa1779041017fe59, type: 3}
-  m_Name: Youngling
+  m_Name: s2
   m_EditorClassIdentifier: 
-  stageName: Young
-  healthThreshold: 0.91
-  neededWater: 0.67
-  neededSunlight: 0.34
-  model: {fileID: 919132149155446097, guid: 7a8a81d339c8841b3bbf5b1bd0415293, type: 3}
+  stageName: curled
+  healthThreshold: 0
+  neededWater: 0
+  neededSunlight: 0
+  model: {fileID: 919132149155446097, guid: cf9ea66ad286616448580e113e8b0545, type: 3}
