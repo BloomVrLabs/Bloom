@@ -89,8 +89,9 @@ public class Plant : MonoBehaviour
     
     private void NextStage()
     {
-        water = 0.25f;
-        sunlight = 0.25f;
+    
+        //water = 0.25f;
+        //sunlight = 0.25f;
         
         _currentStage = plantData.stages[plantData.stages.IndexOf(_currentStage) + 1];
 
