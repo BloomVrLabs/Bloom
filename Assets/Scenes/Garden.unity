@@ -16580,7 +16580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64b7d815d8170e3489176171625cab49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightOn: 0
+  lightOn: 1
   lightBulb: {fileID: 1800406780}
   lightCollision: {fileID: 0}
 --- !u!4 &1800406782
