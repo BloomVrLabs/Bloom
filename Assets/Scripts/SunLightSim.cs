@@ -12,7 +12,7 @@ public class SunLightSim : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        lightOn = false;
+        lightOn = true;
         lightBulb = GetComponent<Light>();
         lightBulb.enabled = false;
 

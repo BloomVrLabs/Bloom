@@ -3,7 +3,12 @@ guid: a98d11f6109794a5f8d96dd6613e6466
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: color_scheme_fall
+    second: {fileID: 2100000, guid: 1fc6b3875796b564ebaca40349716a76, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
