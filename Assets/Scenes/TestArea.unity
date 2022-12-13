@@ -2162,8 +2162,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3420168214551663700, guid: 625ddf95298cff748bca8fb9c3fd89c7, type: 3}
       propertyPath: CollisionModule.type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3420168214551663700, guid: 625ddf95298cff748bca8fb9c3fd89c7, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3420168214551663700, guid: 625ddf95298cff748bca8fb9c3fd89c7, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      value: 
+      objectReference: {fileID: 1553674597}
     - target: {fileID: 6792087428711794476, guid: 625ddf95298cff748bca8fb9c3fd89c7, type: 3}
       propertyPath: m_RootOrder
       value: 1
